@@ -107,3 +107,29 @@ section h2 {
 #economia {
     background-color: rgba(255, 215, 0, 0.5);
 }
+
+#entreterimento {
+    background-color: rgba(22,55,80,0.5)
+}
+
+#e-sports {
+    background-color: rgba(70,209,70,0.5)
+}
+
+#entreterimento img.aquaman2 {
+    width: 65%; /* Ajusta a largura para ocupar 100% do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    object-fit: cover; /* Redimensiona a imagem mantendo a proporção e cobrindo completamente o contêiner */
+}
+
+#e-sports img {
+    width: 409.79px; /* Defina a largura desejada */
+    height: 281.41px; /* Defina a altura desejada, no mesmo valor da largura para torná-la quadrada */
+    object-fit: cover; /* Isso ajuda a manter a proporção da imagem, cortando o excesso se necessário */
+}
+
+article .e-sports {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
