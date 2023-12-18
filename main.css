@@ -127,9 +127,3 @@ section h2 {
     height: 281.41px; /* Defina a altura desejada, no mesmo valor da largura para torná-la quadrada */
     object-fit: cover; /* Isso ajuda a manter a proporção da imagem, cortando o excesso se necessário */
 }
-
-article .e-sports {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-}
